@@ -35,36 +35,33 @@ We can tell from the above visualization that our "target" feature is highly var
 Additionally, due to the low sample, and the small intrinsic value, we drop the "I can't tell" tweets from our data so we are only focusing on the "positive", "negative" and "no emotion" classifications.
 
 
-## <p style="text-align:center">Breakdown of Products Tweeted About by Count</p>
+## Breakdown of Products Tweeted About by Count
 ![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/8823cabd-2177-4e1a-83b2-5162eebb121e)
 
 
-**Exploring Vocabulary between Positive and Negative Tweets**
-WordCloud of Vocabulary from Negative Tweets
+## Exploring Vocabulary between Positive and Negative Tweets
+
+### WordCloud of Vocabulary from Negative Tweets
 ![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/8df05da3-9bbb-4629-a065-2b28cba70a1a)
 
 
 
-WordCloud of Vocabulary from Positive Tweets
+### WordCloud of Vocabulary from Positive Tweets
 ![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/c0ab03f3-d335-43ab-be49-3646bfcb92a4)
 
 
 
 ## Baseline Model
-For our first model, we started with a simple Logistic Regression. We received a training accuracy score of .92 and a test accuracy of .91. We chose to look at the accuracy score because we had a fairly even balance in our target classifier. For a first model, this looks pretty good!
+For our first model, we started with a Random Forest Classifier. We received a training accuracy score of .99 and a test accuracy of .85. For a first model, this looks pretty good!
+![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/6cf47eb6-f41b-4086-bd2a-6d523ffad498)
 
-## Secondary Model
-For our second model, we chose to use a Random Forest Classifier with default hyperparameters. We chose this model because it is simple to interpret, can run very fast, is less prone to over fitting, and can provide us information on feature importance.
-
-For our second model, we received a training accuracy score of 1, and a test accuracy score of .98. A big improvement from our initial model.
 
 ## Final Model
-For our final model, we wanted to piggy back on the success of our Random Forest classifier by trying to tune several hyperparameters using Grid Search. We specifically tuned the max depth, minimum samples to split, and minimum samples in a leaf parameters. 
+After testing several different models, the one with the best results was the XGBoost Classifier. It had a training accuracy score of .96 and a test accuracy score of .86. Looking at the difference in scores between this and our initial model, this one seems to be overfitting less, and should perform better on unseen data, which is why it was chosen as the final model.
+![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/79c466b1-ed12-4d31-ad3b-3d97a566eb49)
 
-After tuning, our final model received a training accuracy score of 1, and a test accuracy score of .98. Although our test score didn't increase, we are happy with our model now that we've confirmed the best levels of our hyperparameters.
 
-Below you can see a confusion matrix showing the results of our final model.
-![image](https://github.com/DGieseke/Global-Life-Expectancy-Predictions-Based-on-International-Metrics/assets/32468677/e08972dd-aa25-4970-830b-1203e73da3e4)
+
 
 ## Feature Importance and Recommendations
 After exploring the feature importances of our final model we are giving 2 recommendations to nation leaders:
