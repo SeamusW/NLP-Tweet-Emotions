@@ -1,14 +1,9 @@
-# NLP-Tweet-Emotions
+# Twitter Sentiment Analysis using NLP
 
-
-<img src="[https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/da97edd3-1168-4a42-bf1b-8abc0441740a]" 
-     width="400" 
-     height="500" />
-     
 ![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/da97edd3-1168-4a42-bf1b-8abc0441740a)
 
-# Predicting Life Expectancy at Birth with International Metrics
-*Seamus Walsh and Daniel Gieseke  |  June 23, 2023*
+# Twitter Sentiment Analysis using NLP
+*Seamus Walsh and Daniel Gieseke  |  July, 2023*
 
 ## Overview
 Life expectancies vary over countries globally. With this project we are aiming to create a model that will predict a country's life expectancy at birth based on a variety of factors. Not only is this project focused on building a strong predictive model, this project further aims to look into which country features prove to be the most important when considering life expectancy at birth. This data was sourced from The World Bank and the United Nations via Kaggle.
