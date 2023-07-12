@@ -1,7 +1,10 @@
 # NLP-Tweet-Emotions
 
 
-
+<img src="[https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/da97edd3-1168-4a42-bf1b-8abc0441740a]" 
+     width="400" 
+     height="500" />
+     
 ![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/da97edd3-1168-4a42-bf1b-8abc0441740a)
 
 # Predicting Life Expectancy at Birth with International Metrics
