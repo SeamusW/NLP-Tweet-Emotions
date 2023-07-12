@@ -2,16 +2,16 @@
 
 ![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/da97edd3-1168-4a42-bf1b-8abc0441740a)
 
-# Twitter Sentiment Analysis using NLP
-*Seamus Walsh and Daniel Gieseke  |  July, 2023*
+# Twitter Sentiment Analysis of Apple and Google Products using Natural Language Processing
+*Seamus Walsh and Daniel Gieseke  |  July 14, 2023*
 
 ## Overview
-Life expectancies vary over countries globally. With this project we are aiming to create a model that will predict a country's life expectancy at birth based on a variety of factors. Not only is this project focused on building a strong predictive model, this project further aims to look into which country features prove to be the most important when considering life expectancy at birth. This data was sourced from The World Bank and the United Nations via Kaggle.
+Twitter among other social media platforms boasts an immense amount of consumer reviews, thoughts, critiques, and praises; with this project, we aim to build a Natural Language Processing (NLP) model that utilizes 'tweets' from Twitter to predict the general sentiment surrounding Apple and Google as well as their respective products. This data was sourced from Twitter via data.world and includes tweets along with respecitve, pre-determined emotion -- either "positive", "negative", "no emotion", or unknown. Our goal is to create a model that can read in one of these tweets and predict wheter the tweet is "positive", "negative", or "no emotion". 
 
 ## Project and Data Links
 <a href="https://github.com/DGieseke/Global-Life-Expectancy-Predictions-Based-on-International-Metrics/blob/main/Data%20Modeling%2C%20Testing%2C%20and%20Predictions%20-%20International%20Life%20Expectancy.ipynb">Data Modeling, Testing, and Predictions</a>
 
-<a href="https://github.com/DGieseke/Global-Life-Expectancy-Predictions-Based-on-International-Metrics/blob/main/EDA%20and%20Data%20Preparation%20-%20International%20Life%20Expectancy.ipynb">EDA and Data Preparation</a>
+<a href="https://[github.com/SeamusW/NLP-Tweet-Emotions/blob/main/EDA%2C%20Processing%2C%20and%20Feature%20Engineering%20-%20Twitter%20Sentiment%20Analysis%20Project.ipynb]">EDA and Data Preparation</a>
 
 <a href="https://github.com/DGieseke/Global-Life-Expectancy-Predictions-Based-on-International-Metrics/blob/main/Predicting%20Global%20Life%20Expectancy.pdf">Project Slide Deck</a>
 
@@ -19,17 +19,13 @@ Life expectancies vary over countries globally. With this project we are aiming 
 
 
 ## Business and Data Understanding
-For this project we play the role of world health advisors to nation leaders. It should be a foundational goal of all leaders to provide a sufficient quality of life for their citizens. Life expectancy has long been a crucial indicator of the overall health and well-being of the population, and can serve as a measure of a country’s quality of life. There are many factors that contribute to life expectancy:
-<ul>
-  <li>Wealth</li>
-<li>Education</li>
-<li>Energy Production and Consumption</li>
-<li>Political Governance</li>  
-</ul>
-Using data provided by The World Bank and the United Nations, we've provided several data-drive strategies to increase life expectancy across the globe.
+It is a goal of all public facing organizations to keep a "pulse-check" on how their consumers feel about their product. One of the biggest places on the internet that consumers go to air their grievances and shout their praises, is Twitter. While it's impossible to gain much insight from one single person's tweet alone, having an understanding of thousands or even millions of tweets can be an enormous benefit. We've created a model that can filter MANY tweets at once, and provide accurate predictions on their sentiment that organizations can then use to advance their product.
+
 
 ## Data Analysis
-For our analyses we sought to predict and classify life expectancies at either above or below 70 years, which is the mean age of life expectancies across our data. We then looked at the biggest contributers to a higher life expectancy to advise countries on where they should provide interventions in order to improve their outcomes.
+For our analyses we sought to predict and classify tweets as either "positive", "negative", or "neutral". Our goals was to create a model that can read in a tweet and predict it's sentiment with high accuracy. Below, we've included our exploratory analysis, visualizations, and final model.
+
+
 
 ## Exploratory Analysis
 After doing all of the necessary data cleaning, we started to explore features. Below, you can see our features of interest by correlation to Life Expectancy at Birth. Note, this visualization includes the correlation between columns with discrete data as our categorical columns may not provide the most insight here. From the below visualization, we see that "Access to Electricity", "GDP per Capita" and "Percent of Urban Population" are the features most correlated with Life Expectancy at Birth.
