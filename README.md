@@ -96,11 +96,11 @@ After testing several different models, the one with the best results was the XG
 
   <b>data folder</b> This folder houses the .csv files we used to create these analyses.
   
-  <b>Predicting Global Life Expectancy - Slide Deck</b> This file is a slide deck covering our analysis.
+  <b>Twitter Sentiment Analysis - Slide Deck</b> This file is a slide deck covering our analysis.
 
-  <b>EDA and Data Preparation - International Life Expectancy</b> This file contains our data wrangling and exploratory analysis.
+  <b>EDA, Processing and Feature Engineering - Twitter Sentiment Analysis Project</b> This file contains our data wrangling and exploratory analysis.
 
-  <b>Data Modeling, Testing, and Predictions - International Life Expectancy</b> This file contains all of our models and analysis.
+  <b>Data Modeling and Final Analysis</b> This file contains all of our models and analysis.
   
   
   <b>README.md</b> This is the file you are reading now that gives an overview of our project.
