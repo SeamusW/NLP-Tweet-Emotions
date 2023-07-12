@@ -32,15 +32,22 @@ After doing all of the necessary data wrangling and cleaning, we took a look at 
 ![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/b811d60b-ffbe-440d-90a6-0d10bc9a13cd)
 We can tell from the above visualization that our "target" feature is highly variable. We take this into account when preparing our model by using "SMOTE" to balance our target features.
 
-Additionally, due to the small amount, and little intrinsic value, we drop the "I can't tell" tweets from our data.
+Additionally, due to the low sample, and the small intrinsic value, we drop the "I can't tell" tweets from our data so we are only focusing on the "positive", "negative" and "no emotion" classifications.
 
-Below are visualizations that we believe shed light on these points.  For additional narratives and context, please see our jupyter notebook file.
 
-**Relationship Between Life Expectancy at Birth and Access to Electricity**
-![image](https://github.com/DGieseke/Global-Life-Expectancy-Predictions-Based-on-International-Metrics/assets/32468677/5594c4a8-9e4d-44d4-b552-e2bcefb41358)
+**Breakdown of Products Tweeted About by Count**
+![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/8823cabd-2177-4e1a-83b2-5162eebb121e)
 
-**Relationship Between Life Expectancy at Birth and the Percent of a Population in Urban Areas**
-![image](https://github.com/DGieseke/Global-Life-Expectancy-Predictions-Based-on-International-Metrics/assets/32468677/a3c86680-bb03-4d01-bb35-f9aa11cee7c2)
+
+**Exploring Vocabulary between Positive and Negative Tweets**
+WordCloud of Vocabulary from Negative Tweets
+![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/8df05da3-9bbb-4629-a065-2b28cba70a1a)
+
+
+
+WordCloud of Vocabulary from Positive Tweets
+![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/c0ab03f3-d335-43ab-be49-3646bfcb92a4)
+
 
 
 ## Baseline Model
