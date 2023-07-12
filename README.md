@@ -23,12 +23,16 @@ It is a goal of all public facing organizations to keep a "pulse-check" on how t
 
 
 ## Data Analysis
-For our analyses we sought to predict and classify tweets as either "positive", "negative", or "neutral". Our goals was to create a model that can read in a tweet and predict it's sentiment with high accuracy. Below, we've included our exploratory analysis, visualizations, and final model.
+For our analyses we sought to predict and classify tweets as either "positive", "negative", or "neutral". Our goals was to create a model that can read in a tweet and predict it's sentiment with high accuracy. Below, we've included some exploratory analysis, visualizations, and our final model.
 
 
 
 ## Exploratory Analysis
-After doing all of the necessary data cleaning, we started to explore features. Below, you can see our features of interest by correlation to Life Expectancy at Birth. Note, this visualization includes the correlation between columns with discrete data as our categorical columns may not provide the most insight here. From the below visualization, we see that "Access to Electricity", "GDP per Capita" and "Percent of Urban Population" are the features most correlated with Life Expectancy at Birth.
+After doing all of the necessary data wrangling and cleaning, we took a look at the breakdown of emotion classifications in our data. 
+![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/b811d60b-ffbe-440d-90a6-0d10bc9a13cd)
+We can tell from the above visualization that our "target" feature is highly variable. We take this into account when preparing our model by using "SMOTE" to balance our target features.
+
+Additionally, due to the small amount, and little intrinsic value, we drop the "I can't tell" tweets from our data.
 
 Below are visualizations that we believe shed light on these points.  For additional narratives and context, please see our jupyter notebook file.
 
