@@ -56,8 +56,13 @@ For our first model, we started with a Random Forest Classifier. We received a t
 ![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/6cf47eb6-f41b-4086-bd2a-6d523ffad498)
 
 
+## Logistic Regression Model
+One model that specifically performed slightly better than others on accurately predicting negative tweets was the Logistic Regression Model. It received a training accuracy score of .93 and a test accuracy score of .85.
+![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/20b59df9-82e9-45dc-99db-869ec3803d2e)
+
+
 ## Final Model
-After testing several different models, the one with the best results was the XGBoost Classifier. It had a training accuracy score of .96 and a test accuracy score of .86. Looking at the difference in scores between this and our initial model, this one seems to be overfitting less, and should perform better on unseen data, which is why it was chosen as the final model.
+After testing several different models, the one with the best results was the XGBoost Classifier. It had a training accuracy score of .96 and a test accuracy score of .86. Looking at the difference in scores between this and our initial model, this one seems to be overfitting less, and should perform better on unseen data, which is why it was chosen as the final model. However, if you are more interested in exploring negative feedback about your product, we would recommend using the Logistic Regression Model instead.
 ![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/79c466b1-ed12-4d31-ad3b-3d97a566eb49)
 
 
