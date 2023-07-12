@@ -74,19 +74,21 @@ After testing several different models, the one with the best results was the XG
 
 
 ## Recommendations
-<li>Invest in Electrical Infrastructure
+<li>Gauge implicit brand favorability using our model
 <ul class="square">
-  <li>Access to electricity proved to be the biggest weight in our predictive model. The more access people have to electricity, the greater the population's life expectancy</li></ul>
-<li>Develop Urban Hubs
+  <li>Because these are implicit feelings, they have arguably more value than other industry measures on customer satisfaction</li></ul>
+<li>Track sentiment trends
  <ul class="square">
-   <li>The higher the percent of an urban population, the better life expectancy outcomes will be.</li>
-   <li>On a macro level, it brings together diverse populations and has been shown to positively contribute to a countries financial growth. This can in itself increase access to daily necessities, and make simple a lot of things that are more strenuous, difficult and potentially dangerous in a rural environment</li></ul>
+   <li>By gathering this information over time, you can use to track trends and make interventions.</li>
+<li>Hone in on consumer critiques in negative tweets
+<ul class="square">
+  <li> Based one the service recovery paradox, focusing on the negative critiques can turn detractors into promoters</li>
 </ul>
 
 ## Next Steps
-<li>Get more granular. What are the specific, best ROI interventions as they relate to our recommendations?
+<li>Generate model based on expanded metrics
+<li>Integrate data from other companies for cross-comparison
 <li>Gather more data
-<li>Work with developing countries directly
 
 ## Repository Structure
   <b>daniel folder</b> This folder houses Daniel's working documents.
