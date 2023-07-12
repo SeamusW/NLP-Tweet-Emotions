@@ -9,7 +9,7 @@
 Twitter among other social media platforms boasts an immense amount of consumer reviews, thoughts, critiques, and praises; with this project, we aim to build a Natural Language Processing (NLP) model that utilizes 'tweets' from Twitter to predict the general sentiment surrounding Apple and Google as well as their respective products. This data was sourced from Twitter via data.world and includes tweets along with respecitve, pre-determined emotion -- either "positive", "negative", "no emotion", or unknown. Our goal is to create a model that can read in one of these tweets and predict wheter the tweet is "positive", "negative", or "no emotion". 
 
 ## Project and Data Links
-<a href="https://github.com/DGieseke/Global-Life-Expectancy-Predictions-Based-on-International-Metrics/blob/main/Data%20Modeling%2C%20Testing%2C%20and%20Predictions%20-%20International%20Life%20Expectancy.ipynb">Data Modeling, Testing, and Predictions</a>
+<a href="https://github.com/SeamusW/NLP-Tweet-Emotions/blob/main/Modeling%20and%20Final%20Analysis.ipynb">Modeling and Final Analysis</a>
 
 <a href="https://github.com/SeamusW/NLP-Tweet-Emotions/blob/main/EDA%2C%20Processing%2C%20and%20Feature%20Engineering%20-%20Twitter%20Sentiment%20Analysis%20Project.ipynb">EDA and Data Preparation</a>
 
