@@ -73,9 +73,7 @@ After testing several different models, the one with the best results was the XG
 
 
 
-## Feature Importance and Recommendations
-After exploring the feature importances of our final model we are giving 2 recommendations to nation leaders:
-<ul>
+## Recommendations
 <li>Invest in Electrical Infrastructure
 <ul class="square">
   <li>Access to electricity proved to be the biggest weight in our predictive model. The more access people have to electricity, the greater the population's life expectancy</li></ul>
