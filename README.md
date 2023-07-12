@@ -15,7 +15,7 @@ Twitter among other social media platforms boasts an immense amount of consumer 
  
 <a href="https://github.com/DGieseke/Global-Life-Expectancy-Predictions-Based-on-International-Metrics/blob/main/Predicting%20Global%20Life%20Expectancy.pdf">Project Slide Deck</a>
 
-<a href="https://www.kaggle.com/datasets/truecue/worldsustainabilitydataset?select=WorldSustainabilityDataset.csv">Data Source: The World Bank and United Nations' Sustainability Data via Kaggle</a>
+<a href="https://data.world/crowdflower/brands-and-product-emotions">Data Source: DataWorld.com</a>
 
 
 ## Business and Data Understanding
