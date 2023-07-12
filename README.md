@@ -35,7 +35,7 @@ We can tell from the above visualization that our "target" feature is highly var
 Additionally, due to the low sample, and the small intrinsic value, we drop the "I can't tell" tweets from our data so we are only focusing on the "positive", "negative" and "no emotion" classifications.
 
 
-**Breakdown of Products Tweeted About by Count**
+<center>**Breakdown of Products Tweeted About by Count**</center>
 ![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/8823cabd-2177-4e1a-83b2-5162eebb121e)
 
 
