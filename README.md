@@ -39,6 +39,11 @@ Additionally, due to the low sample, and the small intrinsic value, we drop the 
 ![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/8823cabd-2177-4e1a-83b2-5162eebb121e)
 
 
+## Consumer Tweets by Product and Sentiment
+![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/219cb95d-b734-410f-98ed-5c07f3d3b379)
+
+
+
 ## Exploring Vocabulary between Positive and Negative Tweets
 
 ### WordCloud of Vocabulary from Negative Tweets
