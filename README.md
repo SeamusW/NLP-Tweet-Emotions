@@ -2,7 +2,7 @@
 
 
 
-<img src="https://www.york.ac.uk/media/research/images/impactcasestudiesgeneral/global-health-challenges800x400.jpg" alt="Global Health Image" title="Global Health  Image">
+![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/da97edd3-1168-4a42-bf1b-8abc0441740a)
 
 # Predicting Life Expectancy at Birth with International Metrics
 *Seamus Walsh and Daniel Gieseke  |  June 23, 2023*
