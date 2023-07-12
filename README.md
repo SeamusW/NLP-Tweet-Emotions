@@ -79,11 +79,10 @@ After testing several different models, the one with the best results was the XG
   <li>Because these are implicit feelings, they have arguably more value than other industry measures on customer satisfaction</li></ul>
 <li>Track sentiment trends
  <ul class="square">
-   <li>By gathering this information over time, you can use to track trends and make interventions.</li>
+   <li>By gathering this information over time, you can use to track trends and make interventions.</li></ul>ul>
 <li>Hone in on consumer critiques in negative tweets
 <ul class="square">
-  <li> Based one the service recovery paradox, focusing on the negative critiques can turn detractors into promoters</li>
-</ul>
+  <li> Based one the service recovery paradox, focusing on the negative critiques can turn detractors into promoters</li></ul>
 
 ## Next Steps
 <li>Generate model based on expanded metrics
