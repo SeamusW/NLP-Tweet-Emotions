@@ -13,7 +13,7 @@ Twitter among other social media platforms boasts an immense amount of consumer 
 
 <a href="https://github.com/SeamusW/NLP-Tweet-Emotions/blob/main/EDA%2C%20Processing%2C%20and%20Feature%20Engineering%20-%20Twitter%20Sentiment%20Analysis%20Project.ipynb">EDA and Data Preparation</a>
  
-<a href="https://github.com/DGieseke/Global-Life-Expectancy-Predictions-Based-on-International-Metrics/blob/main/Predicting%20Global%20Life%20Expectancy.pdf">Project Slide Deck</a>
+<a href="https://github.com/SeamusW/Twitter-Sentiment-Analysis-using-NLP/blob/main/Twitter%20Sentiment%20Analysis%20Slide%20Deck%20-%20July%202023.pdf">Project Slide Deck</a>
 
 <a href="https://data.world/crowdflower/brands-and-product-emotions">Data Source: DataWorld.com</a>
 
