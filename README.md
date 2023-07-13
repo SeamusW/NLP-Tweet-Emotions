@@ -90,10 +90,6 @@ After testing several different models, the one with the best results was the XG
 <li>Gather more data
 
 ## Repository Structure
-  <b>daniel folder</b> This folder houses Daniel's working documents.
-
-  <b>seamus folder</b> This folder houses Seamus's working documents.
-
   <b>data folder</b> This folder houses the .csv files we used to create these analyses.
   
   <b>Twitter Sentiment Analysis - Slide Deck</b> This file is a slide deck covering our analysis.
